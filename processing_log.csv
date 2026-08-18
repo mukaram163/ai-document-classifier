@@ -1,0 +1,4 @@
+timestamp,original_filename,new_filename,customer_name,date,document_type,document_number,confidence,destination
+2026-08-18T20:24:34.780775,fake_invoice_1001.pdf,2024-01-01_Test_Co_1001.pdf,Test Co,2024-01-01,invoice,1001,high,processed
+2026-08-18T20:25:24.000323,fake_invoice_1002.pdf,2024-02-01_Test_Co_1002.pdf,Test Co,2024-02-01,invoice,1002,low,review_needed
+2026-08-19T02:02:36.124803,fake_invoice_1001.pdf,2024-01-01_Test_Co_1001.pdf,Test Co,2024-01-01,invoice,1001,high,processed

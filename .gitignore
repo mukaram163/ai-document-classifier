@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+temp_page.png
+incoming/*.pdf
+processed/*.pdf
+review_needed/*.pdf
+!incoming/.gitkeep
+!processed/.gitkeep
+!review_needed/.gitkeep

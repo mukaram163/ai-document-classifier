@@ -1,0 +1,4 @@
+openai>=1.0.0
+pdf2image>=1.17.0
+pillow>=10.0.0
+python-dotenv>=1.0.0google-genai==0.8.6
