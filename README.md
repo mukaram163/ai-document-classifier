@@ -73,13 +73,21 @@ python3 main.py --dry-run
 
 
 ├── incoming/ # Drop new PDFs here
+
 ├── processed/ # Successfully classified documents
+
 ├── review_needed/ # Low-confidence documents, flagged for manual review
+
 ├── src/
+
 │ ├── config.py # API key loading
+
 │ ├── extractor.py # PDF → image → Gemini vision extraction
+
 │ └── file_handler.py # Renaming, routing, logging
+
 ├── main.py # Entry point — processes everything in incoming/
+
 └── processing_log.csv # Audit trail of every file processed
 
 
